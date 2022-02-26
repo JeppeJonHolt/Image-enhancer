@@ -17,7 +17,7 @@ height, width, channels = image.shape
 print("image read wiht size", image.shape)
 # Read the desired model
 
-path = "C:/Users/ronih/Documents/fun/model/model_two.pb"
+path = "model\model_two.pb"
 sr.readModel(path)
 print("{} model read successfully".format(path))
 
