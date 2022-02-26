@@ -2,8 +2,8 @@ import cv2
 from cv2 import dnn_superres
 from tqdm import tqdm
 
-input_path = 'C:/Users/ronih/Documents/fun/image/giacometti-city-square.jpg'
-output_path = 'C:/Users/ronih/Documents/fun/output'
+input_path = 'image\giacometti-city-square.jpg'
+output_path = 'output'
 # Create an SR object
 sr = dnn_superres.DnnSuperResImpl_create()
 
